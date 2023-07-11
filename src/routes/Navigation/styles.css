@@ -1,0 +1,30 @@
+.navbar {
+  padding: 10px 60px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar > .logo > .logo-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.navbar > .links-container {
+  display: flex;
+  column-gap: 20px;
+}
+
+.navbar > .links-container > a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+
+.navbar > .links-container > a:hover {
+  text-decoration: none;
+  color: rgb(75, 75, 244);
+}

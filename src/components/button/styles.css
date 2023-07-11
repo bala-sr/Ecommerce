@@ -1,0 +1,43 @@
+.button-container {
+  height: 50px;
+  min-width: 160px;
+  width: auto;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.google-sign-in {
+  background: rgb(51, 175, 223);
+  color: white;
+}
+
+.google-sign-in:hover {
+  background: rgb(18, 175, 237);
+  color: white;
+}
+
+.btn-light {
+  background: whitesmoke;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn-light:hover {
+  color: whitesmoke;
+  background: black;
+  border: none;
+}
+
+.btn-dark {
+  color: whitesmoke;
+  background: rgb(24, 24, 24);
+}
+
+.btn-dark:hover {
+  background: whitesmoke;
+  color: black;
+  border: 1px solid black;
+}
